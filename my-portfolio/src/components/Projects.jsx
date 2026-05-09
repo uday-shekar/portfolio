@@ -88,11 +88,15 @@ const Projects = () => {
 
                     <div className="project-actions">
                       <button className="btn-view">
-                        <span>VIEW PROJECT</span>
-                        <ExternalLink size={16} />
+                        <a href="https://yummydosaa.onrender.com/" target="_blank" rel="noopener noreferrer" className="view-link">
+                          <span>VIEW PROJECT</span>
+                          <ExternalLink size={16} />
+                        </a>
                       </button>
                       <button className="btn-github" aria-label="GitHub Repository">
-                        <Github size={20} />
+                        <a href="https://github.com/uday-shekar/YummyDosa.git" target="_blank" rel="noopener noreferrer">
+                          <Github size={20} />
+                        </a>
                       </button>
                     </div>
                   </div>
